@@ -17,16 +17,20 @@
         <script src="js/app.js"></script>
 
 
-    </head>    
+    </head>
     <body>
 
         <div class="container" ng-controller="listadoCtrl">
-            
+
             <h1>ng-repeat</h1>
             <h4>Manejando repeticiones</h4>
             <hr>
 
-            
+            <ul>
+              <li ng-repeat="nombre in listado">
+                  {{nombre}}
+              </li>
+            </ul>
 
 
         </div><!-- fin del listadoCtrl -->
