@@ -11,4 +11,13 @@ Error:
 
 2. Crear un listado de nombres en el `controlador`
 
-3. Motrar el listado de personas en la vista usando la directiva `ng-repeat`
+3. Mostrar el listado de personas en la vista usando la directiva `ng-repeat`
+
+
+## ng-repeat - Parte 2
+
+1. Crear un listado de objetos en el `controlador` llamado `listadoProfesores`
+
+2. Mostrar la lista de objetos usando una tabla en la vista usando la directiva `ng-repeat`
+
+3. Mostrar una lista con la tabla de multiplicar del número `2` del `1 al 10`
